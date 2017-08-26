@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:onClick="explain"
+        android:src="@drawable/ico2048" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="fourRow"
+        android:src="@drawable/row4" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="fiveRow"
+        android:src="@drawable/row5" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="sixRow"
+        android:src="@drawable/row6" />
+
+    <ImageView
+        android:id="@+id/recoverGame"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="recoverGame"
+        android:src="@drawable/recover_game" />
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:onClick="settings"
+        android:src="@drawable/settings" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settingsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/soundSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="音效：关"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/soundSwitchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:onClick="soundSwitch"
+        android:scaleType="centerInside"
+        android:src="@drawable/close" />
+
+    <TextView
+        android:id="@+id/solidColorSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="纯色块：关"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/solidColorSwitchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:onClick="solidColorSwitch"
+        android:scaleType="centerInside"
+        android:src="@drawable/close" />
+
+    <TextView
+        android:id="@+id/themeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:onClick="themeSwitch"
+        android:scaleType="centerInside"
+        android:src="@drawable/none" />
+
+</LinearLayout>
